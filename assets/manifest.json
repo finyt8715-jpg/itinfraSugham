@@ -1,0 +1,37 @@
+{
+  "assets": [
+    {
+      "contentType": "image/avif",
+      "id": "ad51a23f3b3304df",
+      "kind": "image",
+      "name": "ai-slide-1.jpg",
+      "path": "C:\\Users\\Hardik.mundepi\\AppData\\Local\\Packages\\sandbox.{af0d835b-41b1-4b05-8f86-1e76809f6e89}\\AC\\Temp/browser-use/assets/cfc712ed-8464-4514-923b-0ef21ad59682/ad51a23f3b3304df.jpg",
+      "url": "https://hcltech.imgix.net/sites/default/files/images/ui-revamp/home/ai-banner/ai-slide-1.jpg"
+    },
+    {
+      "contentType": "image/avif",
+      "id": "10bcd0958930e98b",
+      "kind": "image",
+      "name": "about-img3.jpg",
+      "path": "C:\\Users\\Hardik.mundepi\\AppData\\Local\\Packages\\sandbox.{af0d835b-41b1-4b05-8f86-1e76809f6e89}\\AC\\Temp/browser-use/assets/cfc712ed-8464-4514-923b-0ef21ad59682/10bcd0958930e98b.jpg",
+      "url": "https://hcltech.imgix.net/sites/default/files/dynamic-two-column/images/2026-01/about-img3.jpg?auto=compress&fit=crop&ixlib=php-4.1.0&v=2&compress&q=80&sharp=20&w=669&h=801"
+    },
+    {
+      "contentType": "font/woff2",
+      "id": "18cf7e8638cf887d",
+      "kind": "font",
+      "name": "HCLTechRoobert-Regular.woff2",
+      "path": "C:\\Users\\Hardik.mundepi\\AppData\\Local\\Packages\\sandbox.{af0d835b-41b1-4b05-8f86-1e76809f6e89}\\AC\\Temp/browser-use/assets/cfc712ed-8464-4514-923b-0ef21ad59682/18cf7e8638cf887d.woff2",
+      "url": "https://www.hcltech.com/themes/custom/hcltech/fonts/roobert/HCLTechRoobert-Regular.woff2"
+    },
+    {
+      "contentType": "font/woff2",
+      "id": "5f118107d92402e9",
+      "kind": "font",
+      "name": "HCLTechRoobert-Bold.woff2",
+      "path": "C:\\Users\\Hardik.mundepi\\AppData\\Local\\Packages\\sandbox.{af0d835b-41b1-4b05-8f86-1e76809f6e89}\\AC\\Temp/browser-use/assets/cfc712ed-8464-4514-923b-0ef21ad59682/5f118107d92402e9.woff2",
+      "url": "https://www.hcltech.com/themes/custom/hcltech/fonts/roobert/HCLTechRoobert-Bold.woff2"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Innovatiview India Limited (IT Infra and Cyber Security)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1>Innovatiview India Limited <span>(IT Infra and Cyber Security)</span></h1></header>
+<div id="home"><div id="alerts" hidden></div><div class="layout">
+<aside>
+<h2>Know about IT Infra and Cyber Security</h2>
+<h3>What is IT infrastructure?</h3>
+<p>The technology a company runs on every day: servers, networks, storage, cloud services, laptops and the software that connects them.</p>
+<h3>What is cyber security?</h3>
+<p>The practice of protecting that technology and the data in it from theft, misuse and attacks.</p>
+<h3>The three goals</h3>
+<ul>
+<li>Confidentiality: only the right people see the data.</li>
+<li>Integrity: data stays accurate and unaltered.</li>
+<li>Availability: systems work when people need them.</li>
+</ul>
+<h3>Why they work together</h3>
+<p>Infrastructure keeps the business running. Security keeps it safe. Each team on the right plays a part in both, and all report up to the CISO.</p>
+</aside>
+<section class="chart-wrap">
+<h2>Our IT departments</h2>
+<p>Hover over or tap a role to see what it does.</p>
+<div class="chart" id="chart">
+<div class="top l1"><button class="node" data-k="director"><b>Director</b><small>Top leadership</small></button></div>
+<div class="top l2"><button class="node" data-k="ciso"><b>CISO</b><small>Chief Information Security Officer</small></button></div>
+<ul class="row">
+<li><button class="node" data-k="soc"><b>SOC Team</b><small>Security monitoring</small></button></li>
+<li><button class="node" data-k="noc"><b>NOC Team</b><small>Network monitoring</small></button></li>
+<li><button class="node" data-k="ops"><b>IT Operations</b><small>Systems and support</small></button></li>
+<li><button class="node" data-k="dpo"><b>DPO</b><small>Data protection</small></button></li>
+<li><button class="node" data-k="misc"><b>Miscellaneous</b><small>Other IT functions</small></button></li>
+</ul>
+</div>
+<div class="legend"><span><i></i>Reports to</span><span><i class="d"></i>Departments work together</span></div>
+<div id="info" aria-live="polite"><h3>Role details</h3><p>Hover over any box above to read what that department does.</p></div>
+</section>
+</div></div>
+<div id="dept" hidden>
+<div class="dhead"><a href="#" id="back">&larr; Back to IT structure</a><h2 id="tt"></h2><p id="dd"></p></div>
+<div class="dwrap">
+<div class="tabs" role="tablist"><button class="tab on" data-t="people" type="button" role="tab"></button><button class="tab" data-t="tasks" type="button" role="tab"></button><button class="tab" data-t="logs" type="button" role="tab"></button></div>
+<div id="p-people"><h3 class="sub2">People, roles and responsibilities</h3><div class="sum" id="sum"></div><div class="cards" id="cards"></div>
+<form class="add" id="f" autocomplete="off">
+<h3 id="fh">Add a team member</h3>
+<label>Name<input id="fn" required maxlength="80"></label>
+<label>Role<input id="fr" required maxlength="80" placeholder="e.g. L2 Security Analyst"></label>
+<label class="w">Responsibilities (daily duties)<textarea id="fw" maxlength="1200" placeholder="e.g. Reviews overnight alerts, triages incidents, hands over shift notes"></textarea></label>
+<label>Working on now<input id="ft" maxlength="300" placeholder="Current task"></label>
+<label>Status<select id="fs"><option value="todo">To do</option><option value="prog">In progress</option><option value="done">Done</option><option value="block">Blocked</option></select></label>
+<div class="act"><button class="b p" type="submit" id="fb">Save</button><button class="b" type="button" id="fc" hidden>Cancel</button></div>
+</form>
+</div>
+<div id="p-tasks" hidden><h3 class="sub2">Task board</h3><div class="sum" id="tsum"></div><div class="board" id="board"></div>
+<form class="add" id="tf" autocomplete="off"><h3 id="tfh">Add a task</h3>
+<label class="w">Task<input id="tn" required maxlength="200" placeholder="e.g. Review firewall rules"></label>
+<label>Assigned to<select id="tas"></select></label>
+<label>Due date<input id="tdu" type="date"></label>
+<label>Status<select id="tst"><option value="todo">To do</option><option value="prog">In progress</option><option value="done">Done</option></select></label>
+<label class="chk"><input id="tbl" type="checkbox"> Blocked (stuck, needs help)</label>
+<div class="act"><button class="b p" type="submit">Save task</button><button class="b" type="button" id="tfc" hidden>Cancel</button></div></form>
+</div>
+<div id="p-logs" hidden><h3 class="sub2">Daily log</h3>
+<div class="lbar"><label>Show date <input id="lf" type="date"></label><button class="b" type="button" id="lfa">Show all dates</button></div>
+<div id="lpend" class="sub"></div><div id="llist"></div>
+<form class="add" id="lfm" autocomplete="off"><h3>Add an end-of-day update</h3>
+<label>Person<select id="lp"></select></label>
+<label>Date<input id="ld" type="date"></label>
+<label class="w">What was done today<textarea id="lt" required maxlength="1500" placeholder="Short summary of today’s work, issues and handover notes"></textarea></label>
+<div class="act"><button class="b p" type="submit">Save update</button></div></form>
+</div>
+<div id="msg" role="status"></div>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

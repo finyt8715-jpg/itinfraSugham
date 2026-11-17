@@ -1,0 +1,59 @@
+/* Header and hero matched to the supplied HCLTech desktop reference. */
+.innovatiview-wordmark{display:block;width:207px;color:#1260df;font-size:35px;line-height:1.1;font-weight:700;letter-spacing:-1.4px}
+html{scroll-padding-top:155px}
+@media(max-width:1500px){.innovatiview-wordmark{width:165px;font-size:28px}html{scroll-padding-top:125px;--workspace-offset:135px}body:has(#dept:not([hidden])) #dept{padding-top:135px}}
+@media(max-width:700px){.innovatiview-wordmark{width:122px;font-size:21px;letter-spacing:-.8px}html{scroll-padding-top:100px;--workspace-offset:105px}body:has(#dept:not([hidden])) #dept{padding-top:105px}}
+.reference-header{position:fixed;top:35px;left:1%;width:98%;height:104px;padding:0 30px;background:#b8bdcc;border:1px solid #fff;border-radius:12px;box-shadow:none;gap:clamp(20px,3.3vw,64px)}
+.hcl-brand{display:flex;flex-shrink:0}.hcl-brand img{width:207px;height:auto;display:block}.reference-header nav{flex:1;justify-content:space-between;gap:clamp(14px,1.6vw,32px);white-space:nowrap}.reference-header nav a,.reference-header nav button{font-size:clamp(14px,1.25vw,24px);font-weight:400;padding:0;display:flex;align-items:center;gap:12px;color:#1c1d30}.chevron{display:inline-block;width:11px;height:11px;border-right:1px solid currentColor;border-bottom:1px solid currentColor;transform:rotate(45deg);margin:-5px 2px 0 3px}.header-tools{display:flex;align-items:center;gap:25px}.header-tools svg{width:30px;height:30px;fill:none;stroke:currentColor;stroke-width:1.6}.header-tools button{display:flex;padding:0!important}.global-link{display:flex;align-items:center;gap:12px}.workspace-chat{width:60px;height:58px;display:grid;place-items:center;border-radius:8px;background:#fff;color:#08090c}.reference-hero{min-height:0;height:41.28vw;max-height:950px;background:#071d4c url('assets/hbr-banner.png') right center/cover no-repeat}.reference-hero .hero-inner{width:98%;max-width:none;margin:0 auto;padding:10.95vw 0 0}.reference-hero h1{font-family:Arial,sans-serif;font-weight:400;font-size:3.4vw;line-height:1.085;letter-spacing:-.04vw;max-width:52%}.reference-hero .hero-inner>p{font-size:1.48vw;line-height:1.4;margin:20px 0 26px;max-width:54%;color:#fff}.reference-hero .cta{font-size:1.28vw;font-weight:400;gap:18px;padding:17px 34px;min-height:70px;border-radius:7px}.reference-hero .cta svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:2}.mega-menu{top:145px}.reference-header~#home .search-section{margin-top:0}body:has(#dept:not([hidden])) #dept{padding-top:var(--workspace-offset,165px)}body:has(#dept:not([hidden])){background:#f6f6fc}
+@media(max-width:1500px){.reference-header{top:24px;height:85px;padding:0 24px;gap:28px}.hcl-brand img{width:165px}.header-tools{gap:16px}.header-tools svg{width:24px;height:24px}.workspace-chat{width:48px;height:48px}.reference-header nav{gap:16px}.reference-hero .cta{min-height:52px;padding:14px 24px}.reference-hero .hero-inner>p{margin:18px 0 22px}.mega-menu{top:115px}}
+@media(max-width:1150px){.reference-header{height:75px;gap:22px}.reference-header nav a{display:none}.reference-header nav{justify-content:flex-end}.reference-header nav button{font-size:17px}.reference-hero{height:540px}.reference-hero .hero-inner{padding:155px 0 0;width:94%}.reference-hero h1{font-size:36px;max-width:58%}.reference-hero .hero-inner>p{font-size:18px}.reference-hero .cta{font-size:16px}.mega-menu{top:110px}}
+@media(max-width:700px){.reference-header{top:16px;left:4%;width:92%;height:68px;padding:0 16px;gap:12px;border-radius:9px}.hcl-brand img{width:122px}.reference-header nav button{font-size:0;gap:0}.reference-header nav button::before{content:'☰';font-size:23px}.reference-header nav button .chevron{display:none}.global-link{display:none}.header-tools{gap:14px}.workspace-chat{width:36px;height:36px;border-radius:5px}.header-tools svg{width:22px;height:22px}.reference-hero{height:790px;background-size:auto 420px;background-position:right bottom;background-color:#081f50}.reference-hero .hero-inner{padding-top:115px;width:90%}.reference-hero h1{font-size:33px;letter-spacing:-.5px;line-height:1.12;max-width:none}.reference-hero .hero-inner>p{font-size:17px;max-width:none;margin:20px 0}.reference-hero .cta{min-height:48px;padding:12px 20px;font-size:16px}.mega-menu{top:94px}.reference-hero .cta svg{width:19px;height:19px}}
+
+
+
+/* Floating navigation matched to the latest header reference. */
+.reference-header{top:15px;left:1%;width:98%;height:104px;padding:0 32px;gap:32px;border-radius:12px;border:1px solid #e7e4e8;background:linear-gradient(180deg,#b5b3b6,#b8b5bb);box-shadow:inset 0 1px 0 #ffffff40}
+.reference-header .innovatiview-wordmark{width:220px;font-size:39px;letter-spacing:-1.8px;color:#1260df}
+.reference-header nav{justify-content:space-between;gap:14px;min-width:0}
+.reference-header nav a,.reference-header nav button{font-size:18px;gap:8px;line-height:1.2}
+.reference-header .chevron{width:10px;height:10px;margin-top:-5px}
+.reference-header .header-tools{gap:27px;flex-shrink:0}
+.reference-header .header-tools svg{width:29px;height:29px}
+.reference-header #search-toggle{width:30px;justify-content:center}
+.reference-header .global-link{display:flex;width:74px;height:58px;justify-content:center;align-items:center;gap:10px;border-radius:7px;background:#f5f4f5;color:#232326}
+.reference-header .workspace-chat{width:60px;height:58px;border-radius:7px;background:#fff;color:#08090c}
+.mega-menu{top:129px}html{scroll-padding-top:135px;--workspace-offset:145px}
+@media(min-width:1600px){.reference-header{gap:45px}.reference-header .innovatiview-wordmark{width:240px;font-size:43px}.reference-header nav{gap:20px}.reference-header nav a,.reference-header nav button{font-size:20px}}
+@media(max-width:1350px) and (min-width:1151px){.reference-header{padding:0 24px;gap:22px}.reference-header .innovatiview-wordmark{width:185px;font-size:33px}.reference-header nav{gap:11px}.reference-header nav a,.reference-header nav button{font-size:15px;gap:6px}.reference-header .header-tools{gap:15px}.reference-header .global-link{width:62px}.reference-header .workspace-chat{width:52px}}
+@media(max-width:1150px){.reference-header{height:80px;padding:0 24px;gap:24px}.reference-header .innovatiview-wordmark{width:207px;font-size:36px}.reference-header nav{justify-content:flex-end}.reference-header nav a{display:none}.reference-header nav button{font-size:17px}.reference-header .global-link{width:62px;height:50px}.reference-header .workspace-chat{width:50px;height:50px}.reference-header .header-tools{gap:18px}.mega-menu{top:105px}html{scroll-padding-top:115px;--workspace-offset:125px}}
+@media(max-width:700px){.reference-header{top:12px;left:4%;width:92%;height:68px;padding:0 15px;gap:12px;border-radius:10px}.reference-header .innovatiview-wordmark{width:122px;font-size:21px;letter-spacing:-.8px}.reference-header nav button{font-size:0;gap:0}.reference-header .header-tools{gap:12px}.reference-header .header-tools svg{width:22px;height:22px}.reference-header #search-toggle{width:23px}.reference-header .global-link{display:none}.reference-header .workspace-chat{width:36px;height:36px}.mega-menu{top:90px}html{scroll-padding-top:100px;--workspace-offset:105px}}
+/* The organisation's four primary destinations. */
+.reference-header nav{justify-content:center;gap:clamp(24px,3vw,55px)}
+.reference-header nav #menu-toggle{display:none}
+@media(max-width:1350px) and (min-width:1151px){.reference-header nav{gap:24px}.reference-header nav a{font-size:17px}}
+@media(max-width:1150px){.reference-header nav{justify-content:flex-end;gap:0}.reference-header nav #menu-toggle{display:flex;gap:8px;font-size:16px}.reference-header nav #menu-toggle::before{content:none}.reference-header .hamburger{padding:0;font-size:23px}}
+@media(max-width:700px){.reference-header nav #menu-toggle .mobile-menu-label{display:none}}
+.reference-header .hcl-brand .innovatiview-logo{display:block;width:240px;height:auto;max-width:100%;object-fit:contain}
+.site-footer .innovatiview-logo{display:block;width:240px;max-width:100%;height:auto}
+@media(max-width:1350px){.reference-header .hcl-brand .innovatiview-logo{width:200px}}
+@media(max-width:700px){.reference-header .hcl-brand .innovatiview-logo{width:145px}.reference-header{gap:8px}}
+.reference-header .hcl-brand .innovatiview-logo{mix-blend-mode:multiply}
+/* Compact header, with matching anchor and menu offsets. */
+.reference-header{height:84px;padding:0 26px;gap:26px}
+.reference-header .hcl-brand .innovatiview-logo{width:210px}
+.reference-header .header-tools{gap:22px}
+.reference-header .header-tools svg{width:26px;height:26px}
+.reference-header .global-link{width:66px;height:48px}
+.reference-header .workspace-chat{width:50px;height:48px}
+.mega-menu{top:109px}
+html{scroll-padding-top:115px;--workspace-offset:125px}
+@media(max-width:1150px){.reference-header{height:70px;padding:0 22px;gap:20px}.reference-header .hcl-brand .innovatiview-logo{width:185px}.reference-header .header-tools{gap:16px}.reference-header .global-link{height:44px;width:58px}.reference-header .workspace-chat{width:44px;height:44px}.mega-menu{top:95px}html{scroll-padding-top:105px;--workspace-offset:115px}}
+@media(max-width:700px){.reference-header{height:60px;padding:0 14px;gap:8px}.reference-header .hcl-brand .innovatiview-logo{width:135px}.reference-header .header-tools{gap:10px}.reference-header .header-tools svg{width:21px;height:21px}.reference-header .workspace-chat{width:34px;height:34px}.mega-menu{top:82px}html{scroll-padding-top:90px;--workspace-offset:95px}}
+.reference-header{background:linear-gradient(180deg,rgba(181,179,182,.84),rgba(184,181,187,.84));backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.reference-header{transition:transform .32s ease}
+.reference-header.is-scrolling{transform:translateY(calc(-100% - 32px))}
+@media(min-width:1151px){.reference-header nav{justify-content:flex-start}}
+
+
+
+
